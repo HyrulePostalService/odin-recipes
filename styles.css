@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(157, 255, 222);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(11, 138, 249);
+    border-bottom:solid rgba(255, 255, 255, 0.521) 3px;
+    padding-bottom:10px;
+}
+
+/* styles for ul and li and a elements */
+
+.list  {
+    
+    padding-bottom:15px;
+    list-style-position: inside;
+   
+    
+}
+
+.lasagna {
+    list-style-image:url(.//Pictures/lasagna.jpg);
+}
+
+.sushi {
+    list-style-image:url(.//Pictures/sushi.jpg);
+}
+
+.salad {
+    list-style-image:url(.//Pictures/salad.jpg);
+}
+
+
+
+a {
+    color:rgb(56, 56, 56);
+    font-size:1.5em;
+    
+}
+
+a:hover {
+    color:whitesmoke;
+}
+
+/* end styles for li ul and a elements */
